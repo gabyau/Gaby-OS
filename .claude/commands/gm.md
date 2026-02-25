@@ -1,7 +1,7 @@
 ---
 name: gm
 description: Morning briefing — today's priorities, tasks, and deadlines
-allowed-tools: Read
+allowed-tools: Read, mcp__outlook-calendar__*
 ---
 
 # /gm — Morning Briefing
@@ -13,10 +13,10 @@ Start Gaby's day with clarity. What matters today? What's due? What should she f
 
 1. Read `my-tasks.yaml` — what's open and high priority?
 2. Read `goals.yaml` — are today's tasks aligned with goals?
-3. Read `context/about-me.md` — any standing commitments to surface?
-4. Read `context/scheduling-rules.md` — any calendar constraints today?
-5. Read `memory/MEMORY.md` — any patterns to apply?
-6. Check for anything due today or overdue
+3. Read `context/scheduling-rules.md` — any calendar constraints today?
+4. Read `memory/MEMORY.md` — any patterns to apply?
+5. Use **outlook-calendar MCP** to pull today's events and next 48 hrs of meetings
+6. Check for anything due today or overdue in tasks
 
 ## Output Format
 
@@ -32,8 +32,14 @@ OPEN HIGH-PRIORITY TASKS
 OVERDUE / DUE TODAY
   [Anything past due or due today — flagged clearly]
 
+CALENDAR TODAY
+  [Today's meetings/events from Outlook, with times]
+
+COMING UP (next 48 hrs)
+  [Any meetings worth prepping for]
+
 WORTH NOTING
   [Any goal alignment flags, patterns, or context worth surfacing]
 ```
 
-Keep it under 20 lines. Actionable, not exhaustive. If everything is fine, say so briefly.
+Keep it under 25 lines. Actionable, not exhaustive. If everything is fine, say so briefly.
