@@ -1,0 +1,16 @@
+# Schedules — Automated skill triggers
+# Cron-style definitions for recurring skills
+# (Requires automation setup — see context/infrastructure.md)
+
+schedules:
+  - skill: gm
+    description: "Morning briefing"
+    cron: "0 8 * * *"
+    enabled: false
+    notes: "TODO: Enable when automation is set up"
+
+  - skill: weekly-report
+    description: "Weekly synthesis"
+    cron: "0 17 * * 5"
+    enabled: false
+    notes: "TODO: Enable when automation is set up"

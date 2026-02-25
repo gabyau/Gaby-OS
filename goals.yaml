@@ -1,0 +1,24 @@
+# Goals — Source of truth for "what should I be working on"
+# Last updated: 2026-02-24
+# Review weekly with /weekly-report
+
+priorities:
+  - area: Academic
+    goals:
+      - description: "Complete MIT Sloan coursework with excellence"
+        status: active
+      - description: "TODO: Add specific academic goals (thesis, research, recruiting)"
+        status: placeholder
+
+  - area: Professional
+    goals:
+      - description: "TODO: Add your professional goals"
+        status: placeholder
+
+  - area: Personal
+    goals:
+      - description: "TODO: Add your personal goals"
+        status: placeholder
+
+current_focus:
+  - "TODO: What's the one thing that matters most right now?"

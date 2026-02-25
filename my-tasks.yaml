@@ -1,0 +1,33 @@
+# Tasks — Open task list
+# Source of truth for all tasks across Academic, Professional, and Personal areas
+# Managed via /my-tasks skill
+
+tasks:
+  # Format:
+  # - task: "Description"
+  #   priority: high | medium | low
+  #   area: Academic | Professional | Personal
+  #   due: YYYY-MM-DD (optional)
+  #   notes: "Context" (optional)
+
+  - task: "Fill in goals.yaml with your actual goals"
+    priority: high
+    area: Personal
+    notes: "Bootstrap step — do this first so I can help prioritize properly"
+
+  - task: "Fill in context/about-me.md with your details"
+    priority: high
+    area: Personal
+    notes: "Helps me understand your full context"
+
+  - task: "Set up memory/USER.md with your preferences"
+    priority: medium
+    area: Personal
+    notes: "Tells me how you like to work"
+
+  - task: "Add your current courses and deadlines"
+    priority: high
+    area: Academic
+    notes: "Add to context/about-me.md and any deadlines to my-tasks.yaml"
+
+completed: []
