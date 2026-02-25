@@ -15,8 +15,14 @@ _The brain's context file — who Gaby is, what she's working on, key info I ref
 
 ## Current Courses (Spring 2026)
 
-- 15.573 — GenAI for Managers (active)
-- TODO: Add remaining courses with key deadlines
+- **15.005** — Sloan Intensive Period Elective Requirement (student)
+- **15.276** — Communicating with Data: B (**TA**)
+- **15.281** — Advanced Leadership Communication: A (student)
+- **15.402** — Corporate Finance: AB (student)
+- **15.563** — Artificial Intelligence for Business (student)
+- **15.573** — Generative AI for Managers (waitlist)
+- **15.911** — Entrepreneurial Strategy (student)
+- **15.S09** — SSIM: Data, Markets, and the Future of Privacy (student)
 
 ## Key Projects
 
