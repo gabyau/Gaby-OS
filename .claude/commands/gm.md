@@ -1,7 +1,7 @@
 ---
 name: gm
 description: Morning briefing — today's priorities, tasks, and deadlines
-allowed-tools: Read, mcp__ms365__*
+allowed-tools: Read, mcp__ms365__*, mcp__canvas__*
 ---
 
 # /gm — Morning Briefing
@@ -16,7 +16,8 @@ Start Gaby's day with clarity. What matters today? What's due? What should she f
 3. Read `context/scheduling-rules.md` — any calendar constraints today?
 4. Read `memory/MEMORY.md` — any patterns to apply?
 5. Use **ms365 MCP** to pull today's calendar events and next 48 hrs of meetings
-6. Check for anything due today or overdue in tasks
+6. Use **canvas MCP** to pull assignments due in the next 7 days across all courses
+7. Check for anything due today or overdue in tasks or Canvas
 
 ## Output Format
 
@@ -37,6 +38,9 @@ CALENDAR TODAY
 
 COMING UP (next 48 hrs)
   [Any meetings worth prepping for]
+
+CANVAS — DUE SOON (7 days)
+  [Assignments due this week, by course]
 
 WORTH NOTING
   [Any goal alignment flags, patterns, or context worth surfacing]
